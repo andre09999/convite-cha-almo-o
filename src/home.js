@@ -20,7 +20,7 @@ function home({value}) {
     
       <h1 className='Nome text bottom'> Andre e Erica</h1>
       <img alt='noivos' className='noivos' src={noivos}/>
-      <h2 className='Nome msg'>Convidam você <h2 className='nomeCon'>{value}</h2> e sua familia  para o cha de pánela.</h2>
+      <h2 className='Nome msg'>Convidam você <h2 className='nomeCon'>{value}</h2> e sua familia  para o  seu chá de panela.</h2>
       <div className='date'>
       <h1 className='Nome mes'>ABRIL </h1>
       <h2 className='Nome data'>Sábado <span className='numeral'>15</span> ás 11:30</h2>
