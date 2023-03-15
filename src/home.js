@@ -1,8 +1,8 @@
 import React from 'react'
 import './App.css'
 import wpp from './images/whatsapp.png'
-import floral  from './images/floral (2).png'
-import floral1  from './images/floral-removebg-preview (1).png'
+import floral  from './images/floralFunR2.png'
+import floral1  from './images/floralFunR1.png'
 import noivos  from './images/noivosl-removebg-preview.png'
 import mps from './images/Vectorizeimages-Iconpack-Map.512.png'
 import { Link } from 'react-router-dom';
@@ -19,7 +19,7 @@ function home({value}) {
     </div>
     
       <h1 className='Nome text bottom'> Andre e Erica</h1>
-      <img alt='noivos' className='noivos' src={noivos}/>
+      <img alt='noivos' className='noivos' src={ noivos }/>
       <h2 className='Nome msg'>Convidam você <h2 className='nomeCon'>{value}</h2> e sua familia  para o  seu chá de panela.</h2>
       <div className='date'>
       <h1 className='Nome mes'>ABRIL </h1>
