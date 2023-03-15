@@ -264,9 +264,10 @@ header{
   }
   
   .noivos{
+    display: block !important;
     position: absolute;
-    right: 42%;
-    top: 20%;
+    right: 42vw;
+    top: 20vh;
     height: 100px;
   }
   .bottom{
@@ -286,4 +287,6 @@ header{
     padding: 0;
   }
 }
+
+
 
