@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 *, html{
   margin: 0;
@@ -179,7 +180,9 @@ header{
   font-size: 22px !important;
 }
 .bottom{
-  padding-top: 150px;
+  padding-top: 130px;
+  padding-bottom: 20px;
+  font-size: 36px;
 }
 @media (max-width: 600px)
 {
