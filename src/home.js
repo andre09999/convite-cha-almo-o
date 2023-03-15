@@ -27,7 +27,7 @@ function home({value}) {
       <h2 className='Nome mes'>2023</h2>
       </div>
       <div className='links'>
-      <Link className='lin' to="https://api.whatsapp.com/send?phone=5562993926390&text=Estou%20confirmando%20minha%20presen%C3%A7a%20no%20casamento!" target='_blank'>
+      <Link className='lin' to="https://api.whatsapp.com/send?phone=5562993926390&text=Estou%20Confirmando%20minha%20presen%C3%A7a%20no%20ch%C3%A1%20de%20panela." target='_blank'>
       <img alt='whatsapp' src={wpp}/>
       <h3> Confirmar presença</h3>
      </Link>
