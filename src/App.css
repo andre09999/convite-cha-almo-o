@@ -120,17 +120,14 @@ header{
 }
 .text{
   padding-top: 50px;
-  font-size: 48px;
+  font-size: 32px;
   color: rgb(250, 250, 250);
   font-family: 'Dancing Script', cursive;
   text-shadow: 0 0 16px rgb(20, 20, 20);
 }
-.bottom{
-  padding-bottom: 150px;
-}
 
 .msg{
-  font-size: 48px;
+  font-size: 34px;
   text-shadow: 0 0 16px rgb(20, 20, 20);
   font-family: 'Dancing Script', cursive;
   color: rgb(255, 255, 255);
@@ -167,20 +164,23 @@ header{
 .numeral{
   font-size: 52px;
   padding-left: 15px;
-  color: #000000 !important;
+  color: #FFD12B !important;
   padding-right: 15px;
-  text-shadow: 0 0 14px rgb(255, 255, 255);
+  text-shadow: 0 0 16px rgb(2, 2, 2);
   font-weight: bolder;
 }
 .data{
   text-shadow: 0 0 14px rgb(0, 0, 0);
 }
 .mes{
-  text-shadow: 0 0 14px rgb(10, 10, 10);
+  color: #000000;
+  text-shadow: 0 0 14px  #FFD12B;
   font-weight: bolder;
   font-size: 22px !important;
 }
-
+.bottom{
+  padding-top: 150px;
+}
 @media (max-width: 600px)
 {
   html{

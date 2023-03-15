@@ -1,7 +1,6 @@
 import React from 'react'
 import './App.css'
 import wpp from './images/whatsapp.png'
-import utensilhos from './images/utensilhos-removebg-preview.png'
 import floral  from './images/floral (2).png'
 import floral1  from './images/floral-removebg-preview (1).png'
 import noivos  from './images/noivosl-removebg-preview.png'
@@ -17,7 +16,6 @@ function home({value}) {
       <div className='container-utensilho'>
           <img alt='floral' className='floral' src={floral}/>
           <img alt='floral' className='floral1' src={floral1}/>
-    <img alt='utensilho' className='utensilho' src={utensilhos}/>
     </div>
     
       <h1 className='Nome text bottom'> Andre e Erica</h1>

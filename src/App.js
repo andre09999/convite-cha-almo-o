@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     if(nome.length >= 3)setCount(true)
     if(nome.length < 3) setCount(false)
-  });
+  }, [nome.length]);
   return ( 
       <div>
         <Routes>
