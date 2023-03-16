@@ -26,6 +26,13 @@ function home({value}) {
       <h2 className='Nome data'>Sábado <span className='numeral'>15</span> ás 11:30</h2>
       <h2 className='Nome mes'>2023</h2>
       </div>
+      <div className='listadepresente'>
+      <h2 className='listadepresenteH'>Lista de presentes:</h2>
+      <p className='listadepresenteH'>fique a sua escolha</p>
+      <Link className='linkss' to="https://nubank.com.br/pagar/x083r/0lqbtqTQSg" target='_blank'>
+        <h3>Não tivemos ideias de presentes para sugerir e se você não for criativo que nem a gente, aqui está nosso pix 😂 Para fazer a transação, basta clicar neste texto!</h3>
+      </Link>
+      </div>
       <div className='links'>
       <Link className='lin' to="https://api.whatsapp.com/send?phone=5562993926390&text=Estou%20Confirmando%20minha%20presen%C3%A7a%20no%20ch%C3%A1%20de%20panela." target='_blank'>
       <img alt='whatsapp' src={wpp}/>

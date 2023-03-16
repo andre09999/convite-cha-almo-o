@@ -151,7 +151,8 @@ header{
   justify-content: center;
   flex-direction: column;
   text-decoration: none;
-  color: #daa520  ;
+  color: #fffefa  ;
+  text-shadow: 0 0 14px rgb(2, 2, 2);
 
 }
 .lin > img{
@@ -183,6 +184,25 @@ header{
   padding-top: 130px;
   padding-bottom: 20px;
   font-size: 36px;
+}
+.listadepresente{
+  text-align: center;
+  color: black;
+  border-top: 1px solid rgb(92, 88, 88);
+  border-bottom: 1px solid rgb(92, 88, 88);
+  padding: 15px;
+}
+
+.linkss{
+  text-decoration: none;
+  color: #FFD12B;
+  text-shadow: 0 0 14px rgb(2, 2, 2);
+  width: 80vw;
+  margin-left: 5vh;
+}
+
+.listadepresenteH{
+  text-shadow: 0 0 14px rgb(255, 255, 255);
 }
 @media (max-width: 600px)
 {
@@ -240,7 +260,7 @@ header{
   .fundoConvite{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     height: 100vh;
   }
   .text{
@@ -267,7 +287,7 @@ header{
     display: block !important;
     position: absolute;
     right: 42vw;
-    top: 20vh;
+    top: 13vh;
     height: 100px;
   }
   .bottom{
