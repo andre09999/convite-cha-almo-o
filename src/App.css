@@ -182,7 +182,6 @@ header{
 }
 .bottom{
   padding-top: 130px;
-  padding-bottom: 20px;
   font-size: 36px;
 }
 .listadepresente{
@@ -284,14 +283,9 @@ header{
   }
   
   .noivos{
-    display: block !important;
-    position: absolute;
-    right: 42vw;
-    top: 11vh;
-    height: 100px;
-  }
-  .bottom{
-   padding: 0;
+    margin-left: 30%;
+    width: 150px;
+    height: 150px;
   }
   .mes{
     text-shadow: 0 0 14px rgb(2, 2, 2);
@@ -300,7 +294,7 @@ header{
     font-size: 26px !important;
   }
   .bottom{
-    padding-bottom: 10px;
+    padding-top: 50px;
   }
 
   .container-utensilho{
