@@ -181,7 +181,7 @@ header{
   font-size: 22px !important;
 }
 .bottom{
-  padding-top: 130px;
+  padding-top: 30px;
   font-size: 36px;
 }
 .listadepresente{
@@ -191,7 +191,11 @@ header{
   border-bottom: 1px solid rgb(92, 88, 88);
   padding: 15px;
 }
-
+.noivos{
+  margin-left: 43%;
+  width: 150px;
+  height: 150px;
+}
 .linkss{
   text-decoration: none;
   color: #FFD12B;
@@ -248,10 +252,7 @@ header{
   .versiculo{
     text-align: center;
   }
-  header{
-    display: none;
-  }
-
+ 
   .Nome{
     font-size: 28px;
   }
@@ -306,3 +307,4 @@ header{
     padding: 0;
   }
 }
+
