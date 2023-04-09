@@ -29,7 +29,7 @@ function home({value}) {
       <div className='listadepresente'>
       <h2 className='listadepresenteH'>Lista de presentes:</h2>
       <p className='listadepresenteH'>Fica a sua escolha</p>
-      <Link className='linkss' to="https://nubank.com.br/pagar/x083r/0lqbtqTQSg" target='_blank'>
+      <Link className='linkss' to="https://nubank.com.br/pagar/x083r/KCvuSTSncL" target='_blank'>
         <h3>Não tivemos ideias de presentes para sugerir e se você não for criativo que nem a gente, aqui está nosso pix 😂. Para fazer a transação, basta clicar neste texto!</h3>
       </Link>
       </div>
